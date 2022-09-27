@@ -1,0 +1,50 @@
+header {
+    margin-top: 0;
+    position: fixed;
+    z-index: 10;
+    background-color: rgb(2, 79, 110);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 55px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+a {
+    color: white;
+
+}
+
+form {
+    padding-top: 70px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.clasification.label {
+    color: gray;
+
+}
+.clasification.input[type="radio"] {
+display: none;
+}
+
+.clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: orange;
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: orange;
+  }
+
+.rangoSalario {
+    width: 400px;
+    color: black;
+}
